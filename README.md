@@ -1,6 +1,6 @@
 # Hi, I'm Sharon 👋
 
-I'm a software developer and a Technion graduate in Computer Science and Mathematics. I build Android and web apps, and I love what I do.
+I'm a software developer and a Technion graduate in Computer Science and Mathematics. I build Android and web apps. I love what I do.
 
 I like building things that solve problems I see around me. Here are a couple of projects I've been working on:
 
