@@ -1,37 +1,27 @@
 # Hi, I'm Sharon 👋
 
-I'm a software developer focused on building mobile and web applications. I enjoy turning practical needs into working products, from the interface people use to the logic and data behind it.
+I'm a software developer and a Technion graduate in Computer Science and Mathematics. I build Android and web apps, and I love what I do.
 
-On October 14, 2026, I completed my undergraduate studies in Mathematics and Computer Science at the Technion – Israel Institute of Technology.
+I like building things that solve problems I see around me. Here are a couple of projects I've been working on:
 
-## Projects I've built
+## [SleepGuard](https://github.com/SharoniiS/sleepguard)
 
-### [SleepGuard](https://github.com/SharoniiS/sleepguard)
+An Android app I'm building for people with PTSD-related sleep difficulties. It shows when the phone was used during the night, without pretending that phone activity tells the whole story of someone's sleep.
 
-A native Android app for people with PTSD-related sleep difficulties. It turns phone screen-activity timestamps into a night timeline, with a deliberate distinction between device activity and sleep.
+The analysis runs on the phone, and the app has no internet permission. Privacy matters to me, especially with something this personal.
 
-- **Kotlin, Jetpack Compose and Material 3** for the Android application and interface.
-- **Room (SQLite)** for local history and **UsageStatsManager** for screen-activity events.
-- On-device analysis with no `INTERNET` permission.
-- A pure-Kotlin analysis core with **JUnit** tests for night patterns and edge cases.
+Built with **Kotlin, Jetpack Compose, Material 3 and Room (SQLite)**. It uses Android's **UsageStatsManager**, with **JUnit** tests for the analysis logic.
 
-This project reflects how I approach sensitive products: protect privacy, make the information understandable, and be clear about what the data can and cannot tell us.
+## [Vaad Bayit Demo](https://github.com/SharoniiS/vaad-bayit-demo)
 
-### [Vaad Bayit Demo](https://github.com/SharoniiS/vaad-bayit-demo)
+A web app for keeping track of building dues, payments, maintenance projects and documents. The interface is in Hebrew, with right-to-left layouts.
 
-A web application for building-committee finances and maintenance, with a Hebrew, right-to-left interface.
+Built with **JavaScript, HTML and CSS**, with separate logic for things like partial payments, exemptions and collection targets.
 
-- Built with **JavaScript, HTML and CSS**.
-- Displays building dues, payment status, maintenance projects and supporting documents.
-- Separates financial calculations from the interface, including partial payments, exemptions and collection targets.
-- Provides a public, read-only snapshot of the application.
-
-[View the live demo](https://sharoniis.github.io/vaad-bayit-demo/)
+You can browse a read-only version here: **[Live demo](https://sharoniis.github.io/vaad-bayit-demo/)**.
 
 ## What I work with
 
-- **Mobile:** Kotlin, Android, Jetpack Compose, Room / SQLite
-- **Web:** JavaScript, HTML, CSS, Hebrew / RTL interfaces
-- **Application logic:** local data persistence, event analysis, financial calculations and unit testing
+**Kotlin · Android · Jetpack Compose · Room / SQLite · JavaScript · HTML · CSS · JUnit**
 
-I care about useful software, thoughtful interfaces and user privacy. I'm looking to keep growing through hands-on product development and collaboration.
+I care about making apps clear and useful for the people using them. I want to keep building, learning and working with people who care about that too.
